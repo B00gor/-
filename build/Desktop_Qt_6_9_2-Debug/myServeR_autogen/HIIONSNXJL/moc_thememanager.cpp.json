@@ -1,0 +1,176 @@
+{
+    "classes": [
+        {
+            "className": "ThemeManager",
+            "lineNumber": 17,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "colorName",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "getThemeColor",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "theme",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "getThemeName",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "theme",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "getThemeDescription",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "name": "getColorPalette",
+                    "returnType": "QVariantList"
+                },
+                {
+                    "access": "public",
+                    "index": 7,
+                    "name": "getAppSettings",
+                    "returnType": "QVariantMap"
+                },
+                {
+                    "access": "public",
+                    "index": 8,
+                    "name": "getRecentColors",
+                    "returnType": "QVariantList"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "theme",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 9,
+                    "name": "setTheme",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "primaryColor",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 10,
+                    "name": "setPrimaryColor",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "settings",
+                            "type": "QVariantMap"
+                        }
+                    ],
+                    "index": 11,
+                    "name": "updateAppSettings",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "theme",
+                    "notify": "themeChanged",
+                    "read": "theme",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setTheme"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "primaryColor",
+                    "notify": "primaryColorChanged",
+                    "read": "primaryColor",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setPrimaryColor"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "currentThemeColors",
+                    "notify": "themeColorsChanged",
+                    "read": "currentThemeColors",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariantMap",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "ThemeManager",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "themeChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "primaryColorChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "themeColorsChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "thememanager.h",
+    "outputRevision": 69
+}

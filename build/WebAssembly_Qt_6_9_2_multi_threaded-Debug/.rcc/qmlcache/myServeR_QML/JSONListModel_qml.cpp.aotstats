@@ -1,0 +1,20 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": false,
+                        "column": 22,
+                        "durationMicroseconds": 188,
+                        "errorMessage": "Cannot access value for name XMLHttpRequest",
+                        "functionName": "onSourceChanged",
+                        "line": 14
+                    }
+                ],
+                "filePath": "/home/boogor/myServeR/QML/JSONListModel.qml"
+            }
+        ],
+        "moduleId": "myQML(myServeR)"
+    }
+]

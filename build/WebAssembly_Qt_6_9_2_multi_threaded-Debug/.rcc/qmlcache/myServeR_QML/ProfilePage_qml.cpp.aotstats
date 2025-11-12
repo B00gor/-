@@ -1,0 +1,788 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": false,
+                        "column": 31,
+                        "durationMicroseconds": 54,
+                        "errorMessage": "Cannot access value for name ThemeManager",
+                        "functionName": "themeColors",
+                        "line": 9
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 27,
+                        "durationMicroseconds": 19,
+                        "errorMessage": "Cannot access value for name width",
+                        "functionName": "isWide",
+                        "line": 10
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 32,
+                        "durationMicroseconds": 29,
+                        "errorMessage": "Cannot access value for name VideoCourseManager",
+                        "functionName": "videoCourses",
+                        "line": 14
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 524,
+                        "errorMessage": "Cannot access value for name VideoCourseManager",
+                        "functionName": "updateCourses",
+                        "line": 60
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 532,
+                        "errorMessage": "Cannot access value for name VideoCourseManager",
+                        "functionName": "getProgressProjects",
+                        "line": 311
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 99,
+                        "errorMessage": "Cannot access value for name ProfileManager",
+                        "functionName": "getStatisticsProjects",
+                        "line": 337
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 58,
+                        "errorMessage": "Cannot load property length from (component in /home/boogor/myServeR/QML/ProfilePage.qml)::videoCourses with type QVariant.",
+                        "functionName": "onCompleted",
+                        "line": 16
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 17,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "Cannot access value for name ThemeManager",
+                        "functionName": "target",
+                        "line": 24
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 9,
+                        "durationMicroseconds": 29,
+                        "errorMessage": "Cannot access value for name ThemeManager",
+                        "functionName": "onThemeColorsChanged",
+                        "line": 25
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 17,
+                        "durationMicroseconds": 35,
+                        "errorMessage": "Cannot access value for name VideoCourseManager",
+                        "functionName": "target",
+                        "line": 32
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 9,
+                        "durationMicroseconds": 33,
+                        "errorMessage": "method updateCourses cannot be resolved.",
+                        "functionName": "onAllCoursesChanged",
+                        "line": 34
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 9,
+                        "durationMicroseconds": 31,
+                        "errorMessage": "method updateCourses cannot be resolved.",
+                        "functionName": "onCreatedCoursesChanged",
+                        "line": 39
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 9,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "onCourseCreated",
+                        "line": 44
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 17,
+                        "durationMicroseconds": 29,
+                        "errorMessage": "Cannot access value for name ProfileManager",
+                        "functionName": "target",
+                        "line": 52
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 9,
+                        "durationMicroseconds": 23,
+                        "errorMessage": "method updateCourses cannot be resolved.",
+                        "functionName": "onUserNameChanged",
+                        "line": 53
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 26,
+                        "durationMicroseconds": 20,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: container",
+                        "functionName": "sourceComponent",
+                        "line": 95
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 19,
+                        "durationMicroseconds": 51,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 92
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 30,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 101
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 41,
+                        "durationMicroseconds": 94,
+                        "errorMessage": "",
+                        "functionName": "preferredHeight",
+                        "line": 107
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 36,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 110
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 100,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 114
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 115
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 38,
+                        "durationMicroseconds": 33,
+                        "errorMessage": "Cannot access value for name container",
+                        "functionName": "themeColors",
+                        "line": 116
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 37,
+                        "durationMicroseconds": 20,
+                        "errorMessage": "Cannot access value for name container",
+                        "functionName": "isEditMode",
+                        "line": 117
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 136,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 122
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 33,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 123
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 38,
+                        "durationMicroseconds": 18,
+                        "errorMessage": "Cannot access value for name container",
+                        "functionName": "themeColors",
+                        "line": 124
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 37,
+                        "durationMicroseconds": 11,
+                        "errorMessage": "Cannot access value for name container",
+                        "functionName": "isEditMode",
+                        "line": 125
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 41,
+                        "durationMicroseconds": 64,
+                        "errorMessage": "",
+                        "functionName": "preferredHeight",
+                        "line": 133
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 23,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 136
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 92,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 140
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 26,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 141
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 38,
+                        "durationMicroseconds": 16,
+                        "errorMessage": "Cannot access value for name container",
+                        "functionName": "themeColors",
+                        "line": 142
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 37,
+                        "durationMicroseconds": 20,
+                        "errorMessage": "Cannot access value for name container",
+                        "functionName": "isEditMode",
+                        "line": 143
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 91,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 147
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 30,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 148
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 35,
+                        "durationMicroseconds": 198,
+                        "errorMessage": "method getProgressProjects cannot be resolved.",
+                        "functionName": "projects",
+                        "line": 150
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 38,
+                        "durationMicroseconds": 12,
+                        "errorMessage": "Cannot access value for name container",
+                        "functionName": "themeColors",
+                        "line": 151
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 37,
+                        "durationMicroseconds": 10,
+                        "errorMessage": "Cannot access value for name container",
+                        "functionName": "isEditMode",
+                        "line": 152
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 67,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 156
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 25,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 157
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 35,
+                        "durationMicroseconds": 188,
+                        "errorMessage": "method getStatisticsProjects cannot be resolved.",
+                        "functionName": "projects",
+                        "line": 159
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 38,
+                        "durationMicroseconds": 13,
+                        "errorMessage": "Cannot access value for name container",
+                        "functionName": "themeColors",
+                        "line": 160
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 37,
+                        "durationMicroseconds": 10,
+                        "errorMessage": "Cannot access value for name container",
+                        "functionName": "isEditMode",
+                        "line": 161
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 44,
+                        "durationMicroseconds": 50,
+                        "errorMessage": "",
+                        "functionName": "preferredWidth",
+                        "line": 176
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 30,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 178
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 38,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 179
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 34,
+                        "durationMicroseconds": 17,
+                        "errorMessage": "Cannot access value for name container",
+                        "functionName": "courses",
+                        "line": 180
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 38,
+                        "durationMicroseconds": 10,
+                        "errorMessage": "Cannot access value for name container",
+                        "functionName": "themeColors",
+                        "line": 181
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 37,
+                        "durationMicroseconds": 10,
+                        "errorMessage": "Cannot access value for name container",
+                        "functionName": "isEditMode",
+                        "line": 182
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 43,
+                        "durationMicroseconds": 32,
+                        "errorMessage": "Cannot load property title from QVariant.",
+                        "functionName": "onCourseSelected",
+                        "line": 183
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 43,
+                        "durationMicroseconds": 21,
+                        "errorMessage": "",
+                        "functionName": "onCourseSelected",
+                        "line": 183
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 44,
+                        "durationMicroseconds": 63,
+                        "errorMessage": "",
+                        "functionName": "preferredWidth",
+                        "line": 194
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 32,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 196
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 36,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 197
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 38,
+                        "durationMicroseconds": 15,
+                        "errorMessage": "Cannot access value for name container",
+                        "functionName": "themeColors",
+                        "line": 198
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 37,
+                        "durationMicroseconds": 10,
+                        "errorMessage": "Cannot access value for name container",
+                        "functionName": "isEditMode",
+                        "line": 199
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 27,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"contentWidth\".",
+                        "functionName": "contentWidth",
+                        "line": 213
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"contentHeight\".",
+                        "functionName": "contentHeight",
+                        "line": 214
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 27,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"fill\".",
+                        "functionName": "fill",
+                        "line": 209
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 40,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"policy\".",
+                        "functionName": "policy",
+                        "line": 210
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 42,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"policy\".",
+                        "functionName": "policy",
+                        "line": 211
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 40,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 218
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 31,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 223
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 33,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 227
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 38,
+                        "durationMicroseconds": 14,
+                        "errorMessage": "Cannot access value for name container",
+                        "functionName": "themeColors",
+                        "line": 229
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 37,
+                        "durationMicroseconds": 13,
+                        "errorMessage": "Cannot access value for name container",
+                        "functionName": "isEditMode",
+                        "line": 230
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 41,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 234
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 57,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 235
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 38,
+                        "durationMicroseconds": 14,
+                        "errorMessage": "Cannot access value for name container",
+                        "functionName": "themeColors",
+                        "line": 236
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 37,
+                        "durationMicroseconds": 9,
+                        "errorMessage": "Cannot access value for name container",
+                        "functionName": "isEditMode",
+                        "line": 237
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 34,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 243
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 44,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 247
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 38,
+                        "durationMicroseconds": 14,
+                        "errorMessage": "Cannot access value for name container",
+                        "functionName": "themeColors",
+                        "line": 249
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 37,
+                        "durationMicroseconds": 9,
+                        "errorMessage": "Cannot access value for name container",
+                        "functionName": "isEditMode",
+                        "line": 250
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 33,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 254
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 35,
+                        "durationMicroseconds": 180,
+                        "errorMessage": "method getProgressProjects cannot be resolved.",
+                        "functionName": "projects",
+                        "line": 257
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 38,
+                        "durationMicroseconds": 12,
+                        "errorMessage": "Cannot access value for name container",
+                        "functionName": "themeColors",
+                        "line": 258
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 37,
+                        "durationMicroseconds": 11,
+                        "errorMessage": "Cannot access value for name container",
+                        "functionName": "isEditMode",
+                        "line": 259
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 32,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 263
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 35,
+                        "durationMicroseconds": 165,
+                        "errorMessage": "method getStatisticsProjects cannot be resolved.",
+                        "functionName": "projects",
+                        "line": 266
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 38,
+                        "durationMicroseconds": 11,
+                        "errorMessage": "Cannot access value for name container",
+                        "functionName": "themeColors",
+                        "line": 267
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 37,
+                        "durationMicroseconds": 11,
+                        "errorMessage": "Cannot access value for name container",
+                        "functionName": "isEditMode",
+                        "line": 268
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 32,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 274
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 25,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 279
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 36,
+                        "durationMicroseconds": 29,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 282
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 37,
+                        "durationMicroseconds": 28,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 283
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 38,
+                        "durationMicroseconds": 14,
+                        "errorMessage": "Cannot access value for name container",
+                        "functionName": "courses",
+                        "line": 284
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 42,
+                        "durationMicroseconds": 9,
+                        "errorMessage": "Cannot access value for name container",
+                        "functionName": "themeColors",
+                        "line": 285
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 41,
+                        "durationMicroseconds": 11,
+                        "errorMessage": "Cannot access value for name container",
+                        "functionName": "isEditMode",
+                        "line": 286
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 47,
+                        "durationMicroseconds": 41,
+                        "errorMessage": "Cannot load property title from QVariant.",
+                        "functionName": "onCourseSelected",
+                        "line": 287
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 47,
+                        "durationMicroseconds": 23,
+                        "errorMessage": "",
+                        "functionName": "onCourseSelected",
+                        "line": 287
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 296
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 36,
+                        "durationMicroseconds": 34,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 299
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 37,
+                        "durationMicroseconds": 31,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 300
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 42,
+                        "durationMicroseconds": 13,
+                        "errorMessage": "Cannot access value for name container",
+                        "functionName": "themeColors",
+                        "line": 301
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 41,
+                        "durationMicroseconds": 9,
+                        "errorMessage": "Cannot access value for name container",
+                        "functionName": "isEditMode",
+                        "line": 302
+                    }
+                ],
+                "filePath": "/home/boogor/myServeR/QML/ProfilePage.qml"
+            }
+        ],
+        "moduleId": "myQML(myServeR)"
+    }
+]

@@ -1,0 +1,10 @@
+/home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/myServeR_autogen/include/../HIIONSNXJL/moc_channelmanager.cpp.json
+/home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/myServeR_autogen/include/../HIIONSNXJL/moc_course.cpp.json
+/home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/myServeR_autogen/include/../HIIONSNXJL/moc_coursedetails.cpp.json
+/home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/myServeR_autogen/include/../HIIONSNXJL/moc_coursemanager.cpp.json
+/home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/myServeR_autogen/include/../HIIONSNXJL/moc_googleauth.cpp.json
+/home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/myServeR_autogen/include/../HIIONSNXJL/moc_lesson.cpp.json
+/home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/myServeR_autogen/include/../HIIONSNXJL/moc_navigationhistory.cpp.json
+/home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/myServeR_autogen/include/../HIIONSNXJL/moc_profilemanager.cpp.json
+/home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/myServeR_autogen/include/../HIIONSNXJL/moc_thememanager.cpp.json
+/home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/myServeR_autogen/include/../HIIONSNXJL/moc_videocoursemanager.cpp.json

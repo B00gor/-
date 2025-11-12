@@ -1,0 +1,211 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:228 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The target system is: Emscripten - 1 - x86
+      The host system is: Linux - 6.14.0-34-generic - x86_64
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/Qt6Dependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/Qt6Config.cmake:172 (include)"
+      - "CMakeLists.txt:20 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-0OAqo6"
+      binary: "/home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-0OAqo6"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG -g"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/platforms;/home/boogor/emsdk/upstream/emscripten/cmake/Modules;/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6;/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin"
+      QT_ADDITIONAL_PACKAGES_PREFIX_PATH: ""
+      QT_CHAINLOAD_TOOLCHAIN_FILE: ""
+      QT_TOOLCHAIN_INCLUDE_FILE: ""
+      QT_TOOLCHAIN_RELOCATABLE_CMAKE_DIR: "/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake"
+      QT_TOOLCHAIN_RELOCATABLE_PREFIX: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-0OAqo6'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_88ea7
+        [1/2] /home/boogor/emsdk/upstream/emscripten/em++ -DCMAKE_HAVE_LIBC_PTHREAD  -DQT_QML_DEBUG -g  -std=gnu++17 -MD -MT CMakeFiles/cmTC_88ea7.dir/src.cxx.o -MF CMakeFiles/cmTC_88ea7.dir/src.cxx.o.d -o CMakeFiles/cmTC_88ea7.dir/src.cxx.o -c /home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-0OAqo6/src.cxx
+        [2/2] : && /home/boogor/emsdk/upstream/emscripten/em++ -DQT_QML_DEBUG -g  CMakeFiles/cmTC_88ea7.dir/src.cxx.o -o cmTC_88ea7.js   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
+      - "/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/Qt6Config.cmake:233 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "/home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-su1J9K"
+      binary: "/home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-su1J9K"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG -g"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/platforms;/home/boogor/emsdk/upstream/emscripten/cmake/Modules;/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6;/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin"
+      QT_ADDITIONAL_PACKAGES_PREFIX_PATH: ""
+      QT_CHAINLOAD_TOOLCHAIN_FILE: ""
+      QT_TOOLCHAIN_INCLUDE_FILE: ""
+      QT_TOOLCHAIN_RELOCATABLE_CMAKE_DIR: "/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake"
+      QT_TOOLCHAIN_RELOCATABLE_PREFIX: ""
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-su1J9K'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_ad455
+        [1/2] /home/boogor/emsdk/upstream/emscripten/em++ -DHAVE_STDATOMIC  -DQT_QML_DEBUG -g  -std=gnu++17 -MD -MT CMakeFiles/cmTC_ad455.dir/src.cxx.o -MF CMakeFiles/cmTC_ad455.dir/src.cxx.o.d -o CMakeFiles/cmTC_ad455.dir/src.cxx.o -c /home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-su1J9K/src.cxx
+        [2/2] : && /home/boogor/emsdk/upstream/emscripten/em++ -DQT_QML_DEBUG -g  CMakeFiles/cmTC_ad455.dir/src.cxx.o -o cmTC_ad455.js   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/FindWrapRt.cmake:23 (check_cxx_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
+      - "/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/Qt6Config.cmake:233 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
+    checks:
+      - "Performing Test HAVE_GETTIME"
+    directories:
+      source: "/home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-MnH9T9"
+      binary: "/home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-MnH9T9"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG -g"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/platforms;/home/boogor/emsdk/upstream/emscripten/cmake/Modules;/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6;/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin"
+      QT_ADDITIONAL_PACKAGES_PREFIX_PATH: ""
+      QT_CHAINLOAD_TOOLCHAIN_FILE: ""
+      QT_TOOLCHAIN_INCLUDE_FILE: ""
+      QT_TOOLCHAIN_RELOCATABLE_CMAKE_DIR: "/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake"
+      QT_TOOLCHAIN_RELOCATABLE_PREFIX: ""
+    buildResult:
+      variable: "HAVE_GETTIME"
+      cached: true
+      stdout: |
+        Change Dir: '/home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-MnH9T9'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_6c4ca
+        [1/2] /home/boogor/emsdk/upstream/emscripten/em++ -DHAVE_GETTIME  -DQT_QML_DEBUG -g  -std=gnu++17 -MD -MT CMakeFiles/cmTC_6c4ca.dir/src.cxx.o -MF CMakeFiles/cmTC_6c4ca.dir/src.cxx.o.d -o CMakeFiles/cmTC_6c4ca.dir/src.cxx.o -c /home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-MnH9T9/src.cxx
+        [2/2] : && /home/boogor/emsdk/upstream/emscripten/em++ -DQT_QML_DEBUG -g  CMakeFiles/cmTC_6c4ca.dir/src.cxx.o -o cmTC_6c4ca.js   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/FindWrapRt.cmake:34 (check_cxx_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
+      - "/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/Qt6Config.cmake:233 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
+    checks:
+      - "Performing Test HAVE_SHM_OPEN_SHM_UNLINK"
+    directories:
+      source: "/home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-5ETtxu"
+      binary: "/home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-5ETtxu"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG -g"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/platforms;/home/boogor/emsdk/upstream/emscripten/cmake/Modules;/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6;/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin"
+      QT_ADDITIONAL_PACKAGES_PREFIX_PATH: ""
+      QT_CHAINLOAD_TOOLCHAIN_FILE: ""
+      QT_TOOLCHAIN_INCLUDE_FILE: ""
+      QT_TOOLCHAIN_RELOCATABLE_CMAKE_DIR: "/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake"
+      QT_TOOLCHAIN_RELOCATABLE_PREFIX: ""
+    buildResult:
+      variable: "HAVE_SHM_OPEN_SHM_UNLINK"
+      cached: true
+      stdout: |
+        Change Dir: '/home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-5ETtxu'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_3fbb8
+        [1/2] /home/boogor/emsdk/upstream/emscripten/em++ -DHAVE_SHM_OPEN_SHM_UNLINK  -DQT_QML_DEBUG -g  -std=gnu++17 -MD -MT CMakeFiles/cmTC_3fbb8.dir/src.cxx.o -MF CMakeFiles/cmTC_3fbb8.dir/src.cxx.o.d -o CMakeFiles/cmTC_3fbb8.dir/src.cxx.o -c /home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-5ETtxu/src.cxx
+        [2/2] : && /home/boogor/emsdk/upstream/emscripten/em++ -DQT_QML_DEBUG -g  CMakeFiles/cmTC_3fbb8.dir/src.cxx.o -o cmTC_3fbb8.js   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules/FindEGL.cmake:128 (check_cxx_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:39 (_qt_internal_find_third_party_dependencies)"
+      - "/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:43 (include)"
+      - "/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
+      - "/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:43 (include)"
+      - "/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/Qt6Config.cmake:233 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
+    checks:
+      - "Performing Test HAVE_EGL"
+    directories:
+      source: "/home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-2VGSvW"
+      binary: "/home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-2VGSvW"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG -g"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/platforms;/home/boogor/emsdk/upstream/emscripten/cmake/Modules;/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6;/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin"
+      QT_ADDITIONAL_PACKAGES_PREFIX_PATH: ""
+      QT_CHAINLOAD_TOOLCHAIN_FILE: ""
+      QT_TOOLCHAIN_INCLUDE_FILE: ""
+      QT_TOOLCHAIN_RELOCATABLE_CMAKE_DIR: "/home/boogor/Qt/6.9.2/wasm_multithread/lib/cmake"
+      QT_TOOLCHAIN_RELOCATABLE_PREFIX: ""
+    buildResult:
+      variable: "HAVE_EGL"
+      cached: true
+      stdout: |
+        Change Dir: '/home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-2VGSvW'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_16814
+        [1/2] /home/boogor/emsdk/upstream/emscripten/em++ -DHAVE_EGL  -DQT_QML_DEBUG -g  -std=gnu++17 -MD -MT CMakeFiles/cmTC_16814.dir/src.cxx.o -MF CMakeFiles/cmTC_16814.dir/src.cxx.o.d -o CMakeFiles/cmTC_16814.dir/src.cxx.o -c /home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-2VGSvW/src.cxx
+        [2/2] : && /home/boogor/emsdk/upstream/emscripten/em++ -DQT_QML_DEBUG -g  CMakeFiles/cmTC_16814.dir/src.cxx.o -o cmTC_16814.js   && :
+        
+      exitCode: 0
+...

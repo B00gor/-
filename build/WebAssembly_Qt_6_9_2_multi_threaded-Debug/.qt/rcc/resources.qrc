@@ -1,0 +1,38 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="icons/menu-icon.webp">/home/boogor/myServeR/icons/menu-icon.webp</file>
+    <file alias="icons/back_icon.webp">/home/boogor/myServeR/icons/back_icon.webp</file>
+    <file alias="icons/forward.webp">/home/boogor/myServeR/icons/forward.webp</file>
+    <file alias="icons/profile-icon.webp">/home/boogor/myServeR/icons/profile-icon.webp</file>
+    <file alias="icons/search-icon.webp">/home/boogor/myServeR/icons/search-icon.webp</file>
+    <file alias="icons/settings_panel_icon.webp">/home/boogor/myServeR/icons/settings_panel_icon.webp</file>
+    <file alias="icons/sidebar_icon.webp">/home/boogor/myServeR/icons/sidebar_icon.webp</file>
+    <file alias="icons/home-house.webp">/home/boogor/myServeR/icons/home-house.webp</file>
+    <file alias="icons/left_icon.webp">/home/boogor/myServeR/icons/left_icon.webp</file>
+    <file alias="icons/right_icon.webp">/home/boogor/myServeR/icons/right_icon.webp</file>
+    <file alias="icons/add_mark_icon.webp">/home/boogor/myServeR/icons/add_mark_icon.webp</file>
+    <file alias="icons/like_icon.webp">/home/boogor/myServeR/icons/like_icon.webp</file>
+    <file alias="icons/release_overview_icon.webp">/home/boogor/myServeR/icons/release_overview_icon.webp</file>
+    <file alias="icons/fail_icon.webp">/home/boogor/myServeR/icons/fail_icon.webp</file>
+    <file alias="icons/icon_standard.webp">/home/boogor/myServeR/icons/icon_standard.webp</file>
+    <file alias="icons/delete-icon.webp">/home/boogor/myServeR/icons/delete-icon.webp</file>
+    <file alias="icons/edit_pen_icon.webp">/home/boogor/myServeR/icons/edit_pen_icon.webp</file>
+    <file alias="icons/photocamera_icon.webp">/home/boogor/myServeR/icons/photocamera_icon.webp</file>
+    <file alias="icons/google-icon.webp">/home/boogor/myServeR/icons/google-icon.webp</file>
+    <file alias="images/javascriptLogo.webp">/home/boogor/myServeR/images/javascriptLogo.webp</file>
+    <file alias="images/pythonLogo.webp">/home/boogor/myServeR/images/pythonLogo.webp</file>
+    <file alias="images/plugImage.webp">/home/boogor/myServeR/images/plugImage.webp</file>
+    <file alias="images/javascript.webp">/home/boogor/myServeR/images/javascript.webp</file>
+    <file alias="images/python.webp">/home/boogor/myServeR/images/python.webp</file>
+    <file alias="images/preview_standard.webp">/home/boogor/myServeR/images/preview_standard.webp</file>
+    <file alias="images/proud-confident.webp">/home/boogor/myServeR/images/proud-confident.webp</file>
+    <file alias="images/pointing-present.webp">/home/boogor/myServeR/images/pointing-present.webp</file>
+    <file alias="images/pointing-at-camera.webp">/home/boogor/myServeR/images/pointing-at-camera.webp</file>
+    <file alias="images/hands-together-point.webp">/home/boogor/myServeR/images/hands-together-point.webp</file>
+    <file alias="images/showing-and-pointing.webp">/home/boogor/myServeR/images/showing-and-pointing.webp</file>
+    <file alias="images/confused-thinking.webp">/home/boogor/myServeR/images/confused-thinking.webp</file>
+    <file alias="images/confused-casual.webp">/home/boogor/myServeR/images/confused-casual.webp</file>
+    <file alias="images/shows-thumbs.webp">/home/boogor/myServeR/images/shows-thumbs.webp</file>
+  </qresource>
+</RCC>
+

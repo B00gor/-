@@ -1,0 +1,12 @@
+-I
+/home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug
+-I
+/home/boogor/Qt/6.9.2/wasm_multithread/qml
+--resource
+/home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.qt/rcc/resources.qrc
+--resource
+/home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.qt/rcc/qmake_myQML.qrc
+--resource
+/home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.qt/rcc/myServeR_raw_qml_0.qrc
+--module
+myQML

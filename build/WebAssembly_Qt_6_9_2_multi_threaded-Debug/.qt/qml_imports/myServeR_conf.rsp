@@ -1,0 +1,15 @@
+-rootPath
+/home/boogor/myServeR
+-cmake-output
+-output-file
+/home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.qt/qml_imports/myServeR_conf.cmake
+-importPath
+/home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/myQML
+-importPath
+/home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug
+-importPath
+/home/boogor/Qt/6.9.2/wasm_multithread/qml
+-qrcFiles
+/home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.qt/rcc/resources.qrc
+/home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.qt/rcc/qmake_myQML.qrc
+/home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/.qt/rcc/myServeR_raw_qml_0.qrc

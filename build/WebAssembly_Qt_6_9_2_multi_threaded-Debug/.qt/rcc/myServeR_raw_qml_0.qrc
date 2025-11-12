@@ -1,0 +1,44 @@
+<RCC>
+  <qresource prefix="/qt/qml/myQML/">
+    <file alias="QML/Main.qml">/home/boogor/myServeR/QML/Main.qml</file>
+    <file alias="QML/LoginPage.qml">/home/boogor/myServeR/QML/LoginPage.qml</file>
+    <file alias="QML/RegisterPage.qml">/home/boogor/myServeR/QML/RegisterPage.qml</file>
+    <file alias="QML/MainPage.qml">/home/boogor/myServeR/QML/MainPage.qml</file>
+    <file alias="QML/CardCourse.qml">/home/boogor/myServeR/QML/CardCourse.qml</file>
+    <file alias="QML/MainSearchPage.qml">/home/boogor/myServeR/QML/MainSearchPage.qml</file>
+    <file alias="QML/CardVideoListView.qml">/home/boogor/myServeR/QML/CardVideoListView.qml</file>
+    <file alias="QML/SearchTagInput.qml">/home/boogor/myServeR/QML/SearchTagInput.qml</file>
+    <file alias="QML/CardVideo.qml">/home/boogor/myServeR/QML/CardVideo.qml</file>
+    <file alias="QML/VideoMainDesktop.qml">/home/boogor/myServeR/QML/VideoMainDesktop.qml</file>
+    <file alias="QML/VideoMainWasm.qml">/home/boogor/myServeR/QML/VideoMainWasm.qml</file>
+    <file alias="QML/JSONListModel.qml">/home/boogor/myServeR/QML/JSONListModel.qml</file>
+    <file alias="QML/VideoPlayer.qml">/home/boogor/myServeR/QML/VideoPlayer.qml</file>
+    <file alias="QML/VideoMainAndroid.qml">/home/boogor/myServeR/QML/VideoMainAndroid.qml</file>
+    <file alias="QML/ProfilePage.qml">/home/boogor/myServeR/QML/ProfilePage.qml</file>
+    <file alias="QML/SettingsPage.qml">/home/boogor/myServeR/QML/SettingsPage.qml</file>
+    <file alias="QML/ProfileСhannel.qml">/home/boogor/myServeR/QML/ProfileСhannel.qml</file>
+    <file alias="QML/ColorButton.qml">/home/boogor/myServeR/QML/ColorButton.qml</file>
+    <file alias="QML/ProfileBlock/ProfileBlock.qml">/home/boogor/myServeR/QML/ProfileBlock/ProfileBlock.qml</file>
+    <file alias="QML/ProfileBlock/ContactBlock.qml">/home/boogor/myServeR/QML/ProfileBlock/ContactBlock.qml</file>
+    <file alias="QML/ProfileBlock/InformationBlock.qml">/home/boogor/myServeR/QML/ProfileBlock/InformationBlock.qml</file>
+    <file alias="QML/ProfileBlock/StatusBlock.qml">/home/boogor/myServeR/QML/ProfileBlock/StatusBlock.qml</file>
+    <file alias="QML/ProfileBlock/ProjectBlock.qml">/home/boogor/myServeR/QML/ProfileBlock/ProjectBlock.qml</file>
+    <file alias="QML/ProfileBlock/VideoCourseBlock.qml">/home/boogor/myServeR/QML/ProfileBlock/VideoCourseBlock.qml</file>
+    <file alias="QML/ProfileBlock/VideoManagementBlock.qml">/home/boogor/myServeR/QML/ProfileBlock/VideoManagementBlock.qml</file>
+    <file alias="QML/AuthPage.qml">/home/boogor/myServeR/QML/AuthPage.qml</file>
+    <file alias="QML/CourseListBlock.qml">/home/boogor/myServeR/QML/CourseListBlock.qml</file>
+    <file alias="QML/CardCourseProfile.qml">/home/boogor/myServeR/QML/CardCourseProfile.qml</file>
+    <file alias="H/database.h">/home/boogor/myServeR/H/database.h</file>
+    <file alias="H/navigationhistory.h">/home/boogor/myServeR/H/navigationhistory.h</file>
+    <file alias="H/profilemanager.h">/home/boogor/myServeR/H/profilemanager.h</file>
+    <file alias="H/thememanager.h">/home/boogor/myServeR/H/thememanager.h</file>
+    <file alias="H/videocoursemanager.h">/home/boogor/myServeR/H/videocoursemanager.h</file>
+    <file alias="H/googleauth.h">/home/boogor/myServeR/H/googleauth.h</file>
+    <file alias="H/channelmanager.h">/home/boogor/myServeR/H/channelmanager.h</file>
+    <file alias="H/course.h">/home/boogor/myServeR/H/course.h</file>
+    <file alias="H/lesson.h">/home/boogor/myServeR/H/lesson.h</file>
+    <file alias="H/coursedetails.h">/home/boogor/myServeR/H/coursedetails.h</file>
+    <file alias="H/coursemanager.h">/home/boogor/myServeR/H/coursemanager.h</file>
+  </qresource>
+</RCC>
+

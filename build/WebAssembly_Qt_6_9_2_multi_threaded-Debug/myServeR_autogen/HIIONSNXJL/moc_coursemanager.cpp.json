@@ -1,0 +1,311 @@
+{
+    "classes": [
+        {
+            "className": "CourseManager",
+            "lineNumber": 12,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 11,
+                    "isConst": true,
+                    "name": "allCourses",
+                    "returnType": "QVariantList"
+                },
+                {
+                    "access": "public",
+                    "index": 12,
+                    "isConst": true,
+                    "name": "myCourses",
+                    "returnType": "QVariantList"
+                },
+                {
+                    "access": "public",
+                    "index": 13,
+                    "isConst": true,
+                    "name": "createdCourses",
+                    "returnType": "QVariantList"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "courseId",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 14,
+                    "isConst": true,
+                    "name": "getCourse",
+                    "returnType": "QVariantMap"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "courseId",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 15,
+                    "isConst": true,
+                    "name": "getCourseDetails",
+                    "returnType": "QVariantMap"
+                },
+                {
+                    "access": "public",
+                    "index": 16,
+                    "name": "loadCourses",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "courseId",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 17,
+                    "name": "loadCourseDetails",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "courseData",
+                            "type": "QVariantMap"
+                        }
+                    ],
+                    "index": 18,
+                    "name": "createCourse",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "courseId",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "courseData",
+                            "type": "QVariantMap"
+                        }
+                    ],
+                    "index": 19,
+                    "name": "updateCourse",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "courseId",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 20,
+                    "name": "deleteCourse",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "courseId",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 21,
+                    "name": "enrollInCourse",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "allCourses",
+                    "notify": "allCoursesChanged",
+                    "read": "allCourses",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariantList",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "myCourses",
+                    "notify": "myCoursesChanged",
+                    "read": "myCourses",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariantList",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "createdCourses",
+                    "notify": "createdCoursesChanged",
+                    "read": "createdCourses",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariantList",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "isLoading",
+                    "notify": "isLoadingChanged",
+                    "read": "isLoading",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "CourseManager",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "allCoursesChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "myCoursesChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "createdCoursesChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "name": "isLoadingChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "courseId",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "courseDetailsLoaded",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "courseId",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "courseCreated",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "courseId",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 6,
+                    "name": "courseUpdated",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "courseId",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 7,
+                    "name": "courseDeleted",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "courseId",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "enrolled",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 8,
+                    "name": "enrollmentStatusChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "errorMessage",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 9,
+                    "name": "apiError",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "reply",
+                            "type": "QNetworkReply*"
+                        }
+                    ],
+                    "index": 10,
+                    "name": "onApiReplyFinished",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "coursemanager.h",
+    "outputRevision": 69
+}

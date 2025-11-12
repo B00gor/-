@@ -1,0 +1,15 @@
+-rootPath
+/home/boogor/myServeR
+-cmake-output
+-output-file
+/home/boogor/myServeR/build/Desktop_Qt_6_9_2-Debug/.qt/qml_imports/myServeR_build.cmake
+-importPath
+/home/boogor/myServeR/build/Desktop_Qt_6_9_2-Debug/myQML
+-importPath
+/home/boogor/myServeR/build/Desktop_Qt_6_9_2-Debug
+-importPath
+/home/boogor/Qt/6.9.2/gcc_64/qml
+-qrcFiles
+/home/boogor/myServeR/build/Desktop_Qt_6_9_2-Debug/.qt/rcc/resources.qrc
+/home/boogor/myServeR/build/Desktop_Qt_6_9_2-Debug/.qt/rcc/qmake_myQML.qrc
+/home/boogor/myServeR/build/Desktop_Qt_6_9_2-Debug/.qt/rcc/myServeR_raw_qml_0.qrc

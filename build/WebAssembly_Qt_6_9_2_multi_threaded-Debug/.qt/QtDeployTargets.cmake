@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_myServeR_FILE /home/boogor/myServeR/build/WebAssembly_Qt_6_9_2_multi_threaded-Debug/myServeR.js)
+set(__QT_DEPLOY_TARGET_myServeR_TYPE EXECUTABLE)

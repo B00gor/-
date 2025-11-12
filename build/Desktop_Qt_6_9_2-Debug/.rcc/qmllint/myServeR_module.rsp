@@ -1,0 +1,12 @@
+-I
+/home/boogor/myServeR/build/Desktop_Qt_6_9_2-Debug
+-I
+/home/boogor/Qt/6.9.2/gcc_64/qml
+--resource
+/home/boogor/myServeR/build/Desktop_Qt_6_9_2-Debug/.qt/rcc/resources.qrc
+--resource
+/home/boogor/myServeR/build/Desktop_Qt_6_9_2-Debug/.qt/rcc/qmake_myQML.qrc
+--resource
+/home/boogor/myServeR/build/Desktop_Qt_6_9_2-Debug/.qt/rcc/myServeR_raw_qml_0.qrc
+--module
+myQML

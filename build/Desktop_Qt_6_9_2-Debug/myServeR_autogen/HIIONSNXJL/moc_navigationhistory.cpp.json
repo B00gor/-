@@ -1,0 +1,151 @@
+{
+    "classes": [
+        {
+            "className": "NavigationHistory",
+            "lineNumber": 9,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "initialPage",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "initialize",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "page",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "properties",
+                            "type": "QVariantMap"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "push",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "page",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 5,
+                    "isCloned": true,
+                    "name": "push",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "name": "goBack",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 7,
+                    "name": "goForward",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "canGoBack",
+                    "notify": "canGoBackChanged",
+                    "read": "canGoBack",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "canGoForward",
+                    "notify": "canGoForwardChanged",
+                    "read": "canGoForward",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "currentPage",
+                    "notify": "currentPageChanged",
+                    "read": "currentPage",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "NavigationHistory",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "canGoBackChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "canGoForwardChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "page",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "direction",
+                            "type": "int"
+                        },
+                        {
+                            "name": "properties",
+                            "type": "QVariantMap"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "currentPageChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "navigationhistory.h",
+    "outputRevision": 69
+}

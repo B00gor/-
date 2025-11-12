@@ -1,0 +1,156 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": false,
+                        "column": 31,
+                        "durationMicroseconds": 100,
+                        "errorMessage": "Cannot access value for name width",
+                        "functionName": "columnCount",
+                        "line": 8
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 32,
+                        "durationMicroseconds": 36,
+                        "errorMessage": "Cannot access value for name width",
+                        "functionName": "columnWidth",
+                        "line": 9
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 27,
+                        "durationMicroseconds": 134,
+                        "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
+                        "functionName": "columns",
+                        "line": 10
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 31,
+                        "durationMicroseconds": 54,
+                        "errorMessage": "Cannot access value for name CourseManager",
+                        "functionName": "courseArray",
+                        "line": 13
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 5,
+                        "durationMicroseconds": 565,
+                        "errorMessage": "Cannot load property length from (component in /home/boogor/myServeR/QML/MainSearchPage.qml)::courseArray with type QVariant.",
+                        "functionName": "updateColumns",
+                        "line": 59
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 21,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"widthChanged\".",
+                        "functionName": "onWidthChanged",
+                        "line": 77
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 93,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 16
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 27,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"contentWidth\".",
+                        "functionName": "contentWidth",
+                        "line": 28
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"contentHeight\".",
+                        "functionName": "contentHeight",
+                        "line": 29
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 132,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 33
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 18,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: mainPage",
+                        "functionName": "model",
+                        "line": 37
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 32,
+                        "durationMicroseconds": 25,
+                        "errorMessage": "Cannot access value for name mainPage",
+                        "functionName": "width",
+                        "line": 40
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 36,
+                        "durationMicroseconds": 186,
+                        "errorMessage": "Cannot access value for name mainPage",
+                        "functionName": "model",
+                        "line": 43
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 40,
+                        "durationMicroseconds": 53,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 45
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 45,
+                        "durationMicroseconds": 159,
+                        "errorMessage": "Cannot access value for name modelData",
+                        "functionName": "courseData",
+                        "line": 46
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 123,
+                        "errorMessage": "Cannot load property length from (component in /home/boogor/myServeR/QML/MainSearchPage.qml)::courseArray with type QVariant.",
+                        "functionName": "onCompleted",
+                        "line": 82
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 17,
+                        "durationMicroseconds": 45,
+                        "errorMessage": "Cannot access value for name CourseManager",
+                        "functionName": "target",
+                        "line": 96
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 9,
+                        "durationMicroseconds": 85,
+                        "errorMessage": "Cannot access value for name CourseManager",
+                        "functionName": "onAllCoursesChanged",
+                        "line": 97
+                    }
+                ],
+                "filePath": "/home/boogor/myServeR/QML/MainSearchPage.qml"
+            }
+        ],
+        "moduleId": "myQML(myServeR)"
+    }
+]

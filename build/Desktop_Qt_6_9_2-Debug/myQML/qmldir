@@ -1,0 +1,33 @@
+module myQML
+typeinfo myServeR.qmltypes
+prefer :/qt/qml/myQML/
+Main 1.0 QML/Main.qml
+LoginPage 1.0 QML/LoginPage.qml
+RegisterPage 1.0 QML/RegisterPage.qml
+MainPage 1.0 QML/MainPage.qml
+CardCourse 1.0 QML/CardCourse.qml
+MainSearchPage 1.0 QML/MainSearchPage.qml
+CardVideoListView 1.0 QML/CardVideoListView.qml
+SearchTagInput 1.0 QML/SearchTagInput.qml
+CardVideo 1.0 QML/CardVideo.qml
+VideoMainDesktop 1.0 QML/VideoMainDesktop.qml
+VideoMainWasm 1.0 QML/VideoMainWasm.qml
+JSONListModel 1.0 QML/JSONListModel.qml
+VideoPlayer 1.0 QML/VideoPlayer.qml
+VideoMainAndroid 1.0 QML/VideoMainAndroid.qml
+ProfilePage 1.0 QML/ProfilePage.qml
+SettingsPage 1.0 QML/SettingsPage.qml
+ProfileСhannel 1.0 QML/ProfileСhannel.qml
+ColorButton 1.0 QML/ColorButton.qml
+ProfileBlock 1.0 QML/ProfileBlock/ProfileBlock.qml
+ContactBlock 1.0 QML/ProfileBlock/ContactBlock.qml
+InformationBlock 1.0 QML/ProfileBlock/InformationBlock.qml
+StatusBlock 1.0 QML/ProfileBlock/StatusBlock.qml
+ProjectBlock 1.0 QML/ProfileBlock/ProjectBlock.qml
+VideoCourseBlock 1.0 QML/ProfileBlock/VideoCourseBlock.qml
+VideoManagementBlock 1.0 QML/ProfileBlock/VideoManagementBlock.qml
+AuthPage 1.0 QML/AuthPage.qml
+CourseListBlock 1.0 QML/CourseListBlock.qml
+CardCourseProfile 1.0 QML/CardCourseProfile.qml
+depends QtQuick
+
